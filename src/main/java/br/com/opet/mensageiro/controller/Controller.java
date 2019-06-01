@@ -11,8 +11,7 @@ import br.com.opet.mensageiro.model.Email;
 
 @RestController
 @RequestMapping("/api/")
-public class Controller {
-	
+public class Controller {	
 	
 	private EmailDAO emailDAO;
 	

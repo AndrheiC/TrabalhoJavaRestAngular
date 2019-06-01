@@ -20,7 +20,7 @@ public class App {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
 		Email email = new Email();
-		email.setId(1);
+		//email.setId(1);
 		
 		String str = "2015-03-15";
 	    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
@@ -32,7 +32,7 @@ public class App {
 		
 		List<Body> message = new ArrayList <Body>();
 		Body mensagem = new Body();
-		mensagem.setId(1);
+		//mensagem.setId(1);
 		mensagem.setEmail(email);
 		mensagem.setMessage("Minha mensagem");
 		
